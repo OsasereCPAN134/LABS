@@ -22,7 +22,7 @@
             <table>
                 <caption st> <b>Employee Table</b></caption> 
                 <tr>
-                    <th> Department</th>
+                    <th>Department</th>
                     <th>Name</th>
                     <th>E-mail</th>
                     <th>Years of Service</th>
