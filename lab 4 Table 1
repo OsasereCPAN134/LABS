@@ -2,71 +2,58 @@
     <html>
         <head>
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title> Lab 4 Table 1</title>
+            <title> Lab 4 Table 2</title>
             <style>
-                table{margin:50px}
-                
+
+                table {margin: 50px;}
                 table {border-collapse: collapse;
-                 width: 40%;
+                 width: 65%;  border: 3px solid black;
                  }
 
-                th, td {border: 1px solid black; padding: 8px; text-align: left;
+                th, td {border: 3px solid black; padding: 8px; text-align: left;
                 }
                 
-                tr:nth-child(odd) { background-color: yellow;
+                tr:nth-child(even) { background-color:grey;
                  }
             </style>
         </head>
         <body>
             <table>
              
-                <tr>
-                    <th>Name</th>
-                    <th>E-mail</th>
-                    <th>Years of Service</th>
+                <tr style="background-color: blueviolet; color: white;">
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th style="width: 18%;">Age</th>
                 </tr>
            
                 <tr>
-                    <td>Joel Murach</td>
-                    <td>joelmurach@yahoo.com</td>
-                    <td style="text-align: right;">22</td>
+                    <td>Josh</td>
+                    <td>Jibbrings</td>
+                    <td >35</td>
                 </tr>
 
                 <tr>
-                    <td>Anne Boehm</td>
-                    <td>anne.murach.com</td>
-                    <td style="text-align: right;">34</td>
+                    <td>Nancy</td>
+                    <td>Ollion</td>
+                    <td>26</td>
                 </tr>
 
                 <tr>
-                    <td>Zak Ruvalcaba</td>
-                    <td>zak@modulemedia.com</td>
-                    <td style="text-align: right;">4</td>
+                    <td>Ben</td>
+                    <td>Anderson</td>
+                    <td>28</td>
                 </tr>
 
                 <tr>
-                    <td>Judy Taylor</td>
-                    <td>judy@murach.com</td>
-                    <td style="text-align: right;">39</td>
-                </tr>
-
-                <tr>
-                    <td>Cyndi Vasquez</td>
-                    <td>cyndi@murach.com</td>
-                    <td style="text-align: right;">10</td>
-                </tr>
-
-                <tr>
-                    <td>Kelly Slivkoff</td>
-                    <td>kelly@murach.com</td>
-                    <td style="text-align: right;">25</td>
-                </tr>
-                <tr>
-                    <td>Juliette Baylon</td>
-                    <td>juliette@murach.com</td>
-                    <td style="text-align: right;">1</td>
+                    <td>Tom</td>
+                    <td>Rickler</td>
+                    <td>45</td>
                 </tr>
             </table>
+                
+        </body>
+
+    </html>
                 
         </body>
 
