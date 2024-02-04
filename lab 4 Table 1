@@ -10,7 +10,7 @@
                  width: 40%;
                  }
 
-                th, td {border: 1px solid black; padding: 8px; text-align: left; border-style: outset;
+                th, td {border: 1px solid black; padding: 8px; text-align: left;
                 }
                 
                 tr:nth-child(odd) { background-color: yellow;
