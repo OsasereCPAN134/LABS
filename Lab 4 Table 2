@@ -4,13 +4,13 @@
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title> Lab 4 Table 2</title>
             <style>
-                table{margin:50px}
-                
+
+                table {margin: 50px;}
                 table {border-collapse: collapse;
-                 width: 80%;
+                 width: 65%;  border: 3px solid black;
                  }
 
-                th, td {border: 3px solid black; padding: 8px; text-align: left; border-style: outset;
+                th, td {border: 3px solid black; padding: 8px; text-align: left;
                 }
                 
                 tr:nth-child(even) { background-color:grey;
@@ -23,7 +23,7 @@
                 <tr style="background-color: blueviolet; color: white;">
                     <th>Firstname</th>
                     <th>Lastname</th>
-                    <th>Age</th>
+                    <th style="width: 18%;">Age</th>
                 </tr>
            
                 <tr>
