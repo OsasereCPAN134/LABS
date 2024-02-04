@@ -1,2 +1,3 @@
 # LABS
-To submit all labs
+All CPAN134 Labs will be submitted here
+
