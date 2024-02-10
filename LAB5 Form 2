@@ -1,1 +1,66 @@
 
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <TItle>Table 5 Forms</TItle>
+
+            <style>label {
+                display: inline-block;
+               margin-bottom: 30px; overflow:visible;
+               }
+               input{ margin-left: 3%;}
+               select{margin-left: 2%;}
+               button{background-color: #45a049; color:white; border:  1px; padding: 1%; border-radius: 10%; width: 10%;}
+            </style>
+                
+        </head>
+
+        <body>
+    
+            <H2>Payment</H2><br>
+            <form>
+
+                <label for="Name"> Card Holder's Name</label>
+                <input type="text" id="Name"><br>
+                <label for="CardNumber"> Card Number</label>
+                <input type="text" id="CardNumber"><br>
+            
+                <label for="Expiry">Card Expiry Date</label> 
+                <select id="month" name="month">
+                    <option value="01">January</option>
+                    <option value="02">February</option>
+                    <option value="03">March</option>
+                    <option value="04">April</option>
+                    <option value="05">May</option>
+                    <option value="06">June</option>
+                    <option value="07">July</option>
+                    <option value="08">August</option>
+                    <option value="09">September</option>
+                    <option value="10">October</option>
+                    <option value="11">November</option>
+                    <option value="12">December</option>
+                </select>
+                <select id="year" name="year">
+                    <option value="2024">2024</option>
+                    <option value="2023">2025</option>
+                    <option value="2022">2026</option>
+                    <option value="2022">2027</option> 
+                    <option value="2022">2028</option>
+                </select> <br>
+                <label for="Expiry">Card CVV</label>
+                <input type="text" id="number" name="number" maxlength="3" pattern="[0-9]{3}"><br>
+
+                <input type="checkbox" id="Save"> Save card on file? <br><br>
+
+                <button>Pay now</button>
+
+
+
+            </form>
+        </body>
+
+
+
+    </html>
+    
