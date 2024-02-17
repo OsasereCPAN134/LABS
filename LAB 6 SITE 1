@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <title>The Halloween store</title>
+        <meta charset="utf-8"><link rel="shortcut icon" href="images/favicon.ico">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/main.css">
+        <style>
+            body {font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 100%;}
+            a { font-weight: bold; }
+            a:link { color: #e27611; }
+            a:visited { color: #111111;}
+            a:hover, a:focus { color: rgb(23, 110, 52); }
+            ul { line-height: 1.5; }
+            li, p { font-size: 95%; }
+            em { font-weight: bold; }
+            header img { float: left; }
+            header h2 {font-size: 220%;color: #f2972e;text-align: left;text-shadow: 2px 2px 2px black; margin-left: 10%; font-style: italic}
+            header h3 {font-size: 130%;text-align: left; margin-left: 10%;}
+            main { clear: left; }
+            main h1 { font-size: 170%; }
+            main h2 { font-size: 130%; }
+            main p.indent { text-indent: 2em; }
+            
+            footer p {font-size: 80%;text-align: center;}
+            .large-letter{font-size: 60px;}
+        </style>
+    </head>
+    <body>
+        <header>
+            <img src="pumpkin.gif" alt="Town Hall Logo" width="80">
+            <h2>The Halloween Store</h2>
+            <h3>For the little goblin in all of us</h3>
+        </header>
+
+        <main>
+            <h2><b><span class="large-letter">W</span>elcome to my site. Please come in and stay awhile.</b></h2>
+            <p>I started this website because Halloween has always been my favourite holiday. But during the last year, I started selling some of my
+                 favourite Halloween products, and they've become quite a hit
+            </p>
+            <p>If you click on the Personal link, you can browse my favourite Halloween pictires, stories, and films. And if you join my mailing list,
+                 I will keep you up-to-date on all things Halloween.</p>
+            <h3>Product categories</h3>
+            <nav>
+                <ul><li><a href="speakers/toobin.html">Props</a>
+                </li><li><a href="speakers/sorkin.html">Costumes</a>
+                </li><li><a href="speakers/chua.html">Special Effects</a>
+                </li><li><a href="speakers/sampson.html">Masks</a>
+            </nav>
+
+            <h3>My guarantee</h3>
+            <p>If you arent completely satisfied with everything you buy from my site, you can return it for a full refund. <b>No questions asked!</b>
+            </p>
+           
+        </main>
+        <footer>
+            <p>&copy; 2016 Ben Murach.</p>
+        </footer>
+    </body>
+    </html>
