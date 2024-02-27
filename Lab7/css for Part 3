@@ -7,7 +7,7 @@
             a { font-weight: bold; }
             a:link { color: #931420; }
             a:visited { color: #f2972e !important; }
-            a:hover, a:focus { color: blue; }
+            a:hover, a:focus { color:  #f2972e;  }
             ul { margin-top: 0; margin-bottom: 1.5em;}
             li { font-size: 95%; padding-bottom: .35em; margin-left: 2.5em;}
             p {font-size: 95%; padding-bottom: .5em;}
