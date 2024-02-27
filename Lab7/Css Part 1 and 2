@@ -1,0 +1,19 @@
+            *{margin: 0; padding: 0;}
+            body {font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 100%; width: 700px; margin: auto;}
+            h1, h2, h3, p {margin: 2px; padding: 3px;}
+            a { font-weight: bold; }
+            a:link { color: #931420; }
+            a:visited { color: #070707 !important; }
+            a:hover, a:focus { color: rgb(33, 150, 23); }
+            ul { line-height: 1.5; margin: 1em 1em 1.5em;}
+            li { font-size: 95%; padding-bottom: .7em;}
+            p {font-size: 95%;}
+            em { font-weight: bold; }
+            header img { float: left; padding-top: 2em;}
+            header h2 {font-size: 220%;color: #f2972e;text-align: center;text-shadow: 2px 2px 2px black; margin-bottom: .5em; padding-top: 1em;}
+            header h3 {font-size: 130%;font-style: italic;text-align: center;}
+            main { clear: left; }
+            main h1 { font-size: 170%; }
+            main h2 { font-size: 130%; }
+            main a.date_passed { color: gray; }
+            footer p {font-size: 80%;text-align: right;}
