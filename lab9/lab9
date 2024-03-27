@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+
+<script>
+
+// empty inventory object
+let inventory = {};
+
+// add a product to the inventory
+function addProduct(productId, name, quantity) {
+  inventory[productId] = { name, quantity };
+}
+
+//display the current inventory
+function displayInventory() {
+  console.log("Inventory:");
+  for (let productId in inventory) {
+    console.log(`ID: ${productId}, Name: ${inventory[productId].name}, Quantity: ${inventory[productId].quantity}`);
+  }
+}
+
+// find a product by ID
+function findProduct(productId) {
+  if (inventory[productId]) {
+    console.log(`Found: ID: ${productId}, Name: ${inventory[productId].name}, Quantity: ${inventory[productId].quantity}`);
+  } else {
+    console.log("Product not found.");
+  }
+}
+</script>
+
+</body>
+</html>
+
